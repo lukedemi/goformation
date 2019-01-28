@@ -8,12 +8,12 @@ type AWSServerlessApi_Auth struct {
 
 	// Authorizers AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#primary-key-object
+	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api-auth-object
 	Authorizers *AWSServerlessApi_String `json:"Authorizers,omitempty"`
 
 	// DefaultAuthorizer AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#primary-key-object
+	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api-auth-object
 	DefaultAuthorizer string `json:"DefaultAuthorizer,omitempty"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy

@@ -18,7 +18,7 @@ type AWSServerlessApi struct {
 
 	// BinaryMediaTypes AWS CloudFormation Property
 	// Required: false
-	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-lambda-function-vpcconfig.html
+	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
 	BinaryMediaTypes []string `json:"BinaryMediaTypes,omitempty"`
 
 	// CacheClusterEnabled AWS CloudFormation Property

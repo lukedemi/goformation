@@ -53,7 +53,7 @@ type AWSServerlessFunction struct {
 
 	// Handler AWS CloudFormation Property
 	// Required: true
-	// See:
+	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
 	Handler string `json:"Handler,omitempty"`
 
 	// KmsKeyArn AWS CloudFormation Property
@@ -63,7 +63,7 @@ type AWSServerlessFunction struct {
 
 	// Layers AWS CloudFormation Property
 	// Required: false
-	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-lambda-function-vpcconfig.html
+	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
 	Layers []string `json:"Layers,omitempty"`
 
 	// MemorySize AWS CloudFormation Property

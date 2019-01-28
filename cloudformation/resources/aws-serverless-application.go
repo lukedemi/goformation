@@ -18,22 +18,22 @@ type AWSServerlessApplication struct {
 
 	// NotificationArns AWS CloudFormation Property
 	// Required: false
-	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-lambda-function-vpcconfig.html
+	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapplication
 	NotificationArns []string `json:"NotificationArns,omitempty"`
 
 	// Parameters AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
+	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapplication
 	Parameters map[string]string `json:"Parameters,omitempty"`
 
 	// Tags AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
+	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapplication
 	Tags map[string]string `json:"Tags,omitempty"`
 
 	// TimeoutInMinutes AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapplication
 	TimeoutInMinutes int `json:"TimeoutInMinutes,omitempty"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
