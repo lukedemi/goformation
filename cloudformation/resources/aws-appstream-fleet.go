@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/awslabs/goformation/cloudformation/policies"
+	"github.com/grahamjenson/goformation/cloudformation/policies"
 )
 
 // AWSAppStreamFleet AWS CloudFormation Resource (AWS::AppStream::Fleet)

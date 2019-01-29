@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/awslabs/goformation/cloudformation/policies"
+	"github.com/grahamjenson/goformation/cloudformation/policies"
 )
 
 // AWSGlueTable AWS CloudFormation Resource (AWS::Glue::Table)

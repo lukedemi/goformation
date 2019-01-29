@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/awslabs/goformation/cloudformation/policies"
+	"github.com/grahamjenson/goformation/cloudformation/policies"
 )
 
 // AWSEMRSecurityConfiguration AWS CloudFormation Resource (AWS::EMR::SecurityConfiguration)

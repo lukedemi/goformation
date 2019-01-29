@@ -3,9 +3,9 @@ package cloudformation_test
 import (
 	"github.com/sanathkr/yaml"
 
-	"github.com/awslabs/goformation/cloudformation"
-	"github.com/awslabs/goformation/cloudformation/policies"
-	"github.com/awslabs/goformation/cloudformation/resources"
+	"github.com/grahamjenson/goformation/cloudformation"
+	"github.com/grahamjenson/goformation/cloudformation/policies"
+	"github.com/grahamjenson/goformation/cloudformation/resources"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
