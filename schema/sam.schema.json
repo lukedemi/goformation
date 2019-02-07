@@ -662,7 +662,7 @@
                     "type": "number"
                 },
                 "StageVariableOverrides": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -683,7 +683,7 @@
                     "type": "number"
                 },
                 "StageVariableOverrides": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -797,7 +797,7 @@
                     "type": "boolean"
                 },
                 "Variables": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -1060,7 +1060,7 @@
                     "additionalProperties": false,
                     "properties": {
                         "ResponseParameters": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -1069,7 +1069,7 @@
                             "type": "object"
                         },
                         "ResponseTemplates": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -1169,7 +1169,7 @@
                             "type": "string"
                         },
                         "RequestModels": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -1178,7 +1178,7 @@
                             "type": "object"
                         },
                         "RequestParameters": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "boolean"
@@ -1253,7 +1253,7 @@
                     "type": "string"
                 },
                 "RequestParameters": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -1262,7 +1262,7 @@
                     "type": "object"
                 },
                 "RequestTemplates": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -1289,7 +1289,7 @@
                     "type": "string"
                 },
                 "ResponseParameters": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -1298,7 +1298,7 @@
                     "type": "object"
                 },
                 "ResponseTemplates": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -1322,7 +1322,7 @@
             "additionalProperties": false,
             "properties": {
                 "ResponseModels": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -1331,7 +1331,7 @@
                     "type": "object"
                 },
                 "ResponseParameters": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "boolean"
@@ -1605,7 +1605,7 @@
                             "type": "string"
                         },
                         "Parameters": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -1739,7 +1739,7 @@
                             "type": "boolean"
                         },
                         "Variables": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -1788,7 +1788,7 @@
                     "type": "number"
                 },
                 "StageVariableOverrides": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -1913,7 +1913,7 @@
                     "type": "string"
                 },
                 "Throttle": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "$ref": "#/definitions/AWS::ApiGateway::UsagePlan.ThrottleSettings"
@@ -5890,7 +5890,7 @@
                             "type": "array"
                         },
                         "Parameters": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -16471,7 +16471,7 @@
                     "type": "array"
                 },
                 "DockerLabels": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -16609,7 +16609,7 @@
                     "type": "string"
                 },
                 "DriverOpts": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -16618,7 +16618,7 @@
                     "type": "object"
                 },
                 "Labels": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -16748,7 +16748,7 @@
                     "type": "string"
                 },
                 "Options": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -17248,7 +17248,7 @@
             "additionalProperties": false,
             "properties": {
                 "AdditionalInfo": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -17355,7 +17355,7 @@
                     "type": "string"
                 },
                 "ConfigurationProperties": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -17896,7 +17896,7 @@
                     "type": "string"
                 },
                 "ConfigurationProperties": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -18178,7 +18178,7 @@
                     "type": "string"
                 },
                 "ConfigurationProperties": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -18676,7 +18676,7 @@
                             "type": "string"
                         },
                         "Properties": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -19900,7 +19900,7 @@
             "additionalProperties": false,
             "properties": {
                 "AuthenticationRequestExtraParams": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -19941,7 +19941,7 @@
             "additionalProperties": false,
             "properties": {
                 "AuthenticationRequestExtraParams": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -20220,7 +20220,7 @@
             "additionalProperties": false,
             "properties": {
                 "AuthenticationRequestExtraParams": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -20261,7 +20261,7 @@
             "additionalProperties": false,
             "properties": {
                 "AuthenticationRequestExtraParams": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -20675,7 +20675,7 @@
                             "type": "object"
                         },
                         "AdvancedOptions": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -20976,7 +20976,7 @@
             "additionalProperties": false,
             "properties": {
                 "InputPathsMap": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -24301,7 +24301,7 @@
             "additionalProperties": false,
             "properties": {
                 "Attributes": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -26430,7 +26430,7 @@
             "additionalProperties": false,
             "properties": {
                 "Variables": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -27365,7 +27365,7 @@
                             "$ref": "#/definitions/AWS::OpsWorks::App.Source"
                         },
                         "Attributes": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -27735,7 +27735,7 @@
             "additionalProperties": false,
             "properties": {
                 "Friday": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -27744,7 +27744,7 @@
                     "type": "object"
                 },
                 "Monday": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -27753,7 +27753,7 @@
                     "type": "object"
                 },
                 "Saturday": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -27762,7 +27762,7 @@
                     "type": "object"
                 },
                 "Sunday": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -27771,7 +27771,7 @@
                     "type": "object"
                 },
                 "Thursday": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -27780,7 +27780,7 @@
                     "type": "object"
                 },
                 "Tuesday": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -27789,7 +27789,7 @@
                     "type": "object"
                 },
                 "Wednesday": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -27833,7 +27833,7 @@
                     "additionalProperties": false,
                     "properties": {
                         "Attributes": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -28091,7 +28091,7 @@
                             "type": "string"
                         },
                         "Attributes": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -28896,7 +28896,7 @@
                             "type": "string"
                         },
                         "Parameters": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -32524,7 +32524,7 @@
                             "$ref": "#/definitions/AWS::SSM::Association.InstanceAssociationOutputLocation"
                         },
                         "Parameters": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "$ref": "#/definitions/AWS::SSM::Association.ParameterValues"
@@ -34123,7 +34123,7 @@
                             "type": "string"
                         },
                         "Variables": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -34215,7 +34215,16 @@
                     "additionalProperties": false,
                     "properties": {
                         "Location": {
-                            "type": "string"
+                            "anyOf": [
+                                {
+                                    "type": [
+                                        "string"
+                                    ]
+                                },
+                                {
+                                    "$ref": "#/definitions/AWS::Serverless::Application.ApplicationLocation"
+                                }
+                            ]
                         },
                         "NotificationArns": {
                             "items": {
@@ -34224,7 +34233,7 @@
                             "type": "array"
                         },
                         "Parameters": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -34233,7 +34242,7 @@
                             "type": "object"
                         },
                         "Tags": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -34260,6 +34269,22 @@
             "required": [
                 "Type",
                 "Properties"
+            ],
+            "type": "object"
+        },
+        "AWS::Serverless::Application.ApplicationLocation": {
+            "additionalProperties": false,
+            "properties": {
+                "ApplicationId": {
+                    "type": "string"
+                },
+                "SemanticVersion": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "ApplicationId",
+                "SemanticVersion"
             ],
             "type": "object"
         },
@@ -34323,7 +34348,7 @@
                             "$ref": "#/definitions/AWS::Serverless::Function.FunctionEnvironment"
                         },
                         "Events": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "$ref": "#/definitions/AWS::Serverless::Function.EventSource"
@@ -34383,7 +34408,7 @@
                             "type": "string"
                         },
                         "Tags": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -34425,7 +34450,7 @@
             "additionalProperties": false,
             "properties": {
                 "Variables": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -34502,7 +34527,7 @@
                     "type": "boolean"
                 },
                 "Hooks": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -34590,7 +34615,7 @@
             "additionalProperties": false,
             "properties": {
                 "Variables": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -34890,7 +34915,7 @@
                             "type": "string"
                         },
                         "Tags": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"

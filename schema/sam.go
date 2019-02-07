@@ -665,7 +665,7 @@ var SamSchema = `{
                     "type": "number"
                 },
                 "StageVariableOverrides": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -686,7 +686,7 @@ var SamSchema = `{
                     "type": "number"
                 },
                 "StageVariableOverrides": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -800,7 +800,7 @@ var SamSchema = `{
                     "type": "boolean"
                 },
                 "Variables": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -1063,7 +1063,7 @@ var SamSchema = `{
                     "additionalProperties": false,
                     "properties": {
                         "ResponseParameters": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -1072,7 +1072,7 @@ var SamSchema = `{
                             "type": "object"
                         },
                         "ResponseTemplates": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -1172,7 +1172,7 @@ var SamSchema = `{
                             "type": "string"
                         },
                         "RequestModels": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -1181,7 +1181,7 @@ var SamSchema = `{
                             "type": "object"
                         },
                         "RequestParameters": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "boolean"
@@ -1256,7 +1256,7 @@ var SamSchema = `{
                     "type": "string"
                 },
                 "RequestParameters": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -1265,7 +1265,7 @@ var SamSchema = `{
                     "type": "object"
                 },
                 "RequestTemplates": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -1292,7 +1292,7 @@ var SamSchema = `{
                     "type": "string"
                 },
                 "ResponseParameters": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -1301,7 +1301,7 @@ var SamSchema = `{
                     "type": "object"
                 },
                 "ResponseTemplates": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -1325,7 +1325,7 @@ var SamSchema = `{
             "additionalProperties": false,
             "properties": {
                 "ResponseModels": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -1334,7 +1334,7 @@ var SamSchema = `{
                     "type": "object"
                 },
                 "ResponseParameters": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "boolean"
@@ -1608,7 +1608,7 @@ var SamSchema = `{
                             "type": "string"
                         },
                         "Parameters": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -1742,7 +1742,7 @@ var SamSchema = `{
                             "type": "boolean"
                         },
                         "Variables": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -1791,7 +1791,7 @@ var SamSchema = `{
                     "type": "number"
                 },
                 "StageVariableOverrides": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -1916,7 +1916,7 @@ var SamSchema = `{
                     "type": "string"
                 },
                 "Throttle": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "$ref": "#/definitions/AWS::ApiGateway::UsagePlan.ThrottleSettings"
@@ -5893,7 +5893,7 @@ var SamSchema = `{
                             "type": "array"
                         },
                         "Parameters": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -16474,7 +16474,7 @@ var SamSchema = `{
                     "type": "array"
                 },
                 "DockerLabels": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -16612,7 +16612,7 @@ var SamSchema = `{
                     "type": "string"
                 },
                 "DriverOpts": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -16621,7 +16621,7 @@ var SamSchema = `{
                     "type": "object"
                 },
                 "Labels": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -16751,7 +16751,7 @@ var SamSchema = `{
                     "type": "string"
                 },
                 "Options": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -17251,7 +17251,7 @@ var SamSchema = `{
             "additionalProperties": false,
             "properties": {
                 "AdditionalInfo": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -17358,7 +17358,7 @@ var SamSchema = `{
                     "type": "string"
                 },
                 "ConfigurationProperties": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -17899,7 +17899,7 @@ var SamSchema = `{
                     "type": "string"
                 },
                 "ConfigurationProperties": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -18181,7 +18181,7 @@ var SamSchema = `{
                     "type": "string"
                 },
                 "ConfigurationProperties": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -18679,7 +18679,7 @@ var SamSchema = `{
                             "type": "string"
                         },
                         "Properties": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -19903,7 +19903,7 @@ var SamSchema = `{
             "additionalProperties": false,
             "properties": {
                 "AuthenticationRequestExtraParams": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -19944,7 +19944,7 @@ var SamSchema = `{
             "additionalProperties": false,
             "properties": {
                 "AuthenticationRequestExtraParams": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -20223,7 +20223,7 @@ var SamSchema = `{
             "additionalProperties": false,
             "properties": {
                 "AuthenticationRequestExtraParams": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -20264,7 +20264,7 @@ var SamSchema = `{
             "additionalProperties": false,
             "properties": {
                 "AuthenticationRequestExtraParams": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -20678,7 +20678,7 @@ var SamSchema = `{
                             "type": "object"
                         },
                         "AdvancedOptions": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -20979,7 +20979,7 @@ var SamSchema = `{
             "additionalProperties": false,
             "properties": {
                 "InputPathsMap": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -24304,7 +24304,7 @@ var SamSchema = `{
             "additionalProperties": false,
             "properties": {
                 "Attributes": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -26433,7 +26433,7 @@ var SamSchema = `{
             "additionalProperties": false,
             "properties": {
                 "Variables": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -27368,7 +27368,7 @@ var SamSchema = `{
                             "$ref": "#/definitions/AWS::OpsWorks::App.Source"
                         },
                         "Attributes": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -27738,7 +27738,7 @@ var SamSchema = `{
             "additionalProperties": false,
             "properties": {
                 "Friday": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -27747,7 +27747,7 @@ var SamSchema = `{
                     "type": "object"
                 },
                 "Monday": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -27756,7 +27756,7 @@ var SamSchema = `{
                     "type": "object"
                 },
                 "Saturday": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -27765,7 +27765,7 @@ var SamSchema = `{
                     "type": "object"
                 },
                 "Sunday": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -27774,7 +27774,7 @@ var SamSchema = `{
                     "type": "object"
                 },
                 "Thursday": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -27783,7 +27783,7 @@ var SamSchema = `{
                     "type": "object"
                 },
                 "Tuesday": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -27792,7 +27792,7 @@ var SamSchema = `{
                     "type": "object"
                 },
                 "Wednesday": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -27836,7 +27836,7 @@ var SamSchema = `{
                     "additionalProperties": false,
                     "properties": {
                         "Attributes": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -28094,7 +28094,7 @@ var SamSchema = `{
                             "type": "string"
                         },
                         "Attributes": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -28899,7 +28899,7 @@ var SamSchema = `{
                             "type": "string"
                         },
                         "Parameters": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -32527,7 +32527,7 @@ var SamSchema = `{
                             "$ref": "#/definitions/AWS::SSM::Association.InstanceAssociationOutputLocation"
                         },
                         "Parameters": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "$ref": "#/definitions/AWS::SSM::Association.ParameterValues"
@@ -34126,7 +34126,7 @@ var SamSchema = `{
                             "type": "string"
                         },
                         "Variables": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -34218,7 +34218,16 @@ var SamSchema = `{
                     "additionalProperties": false,
                     "properties": {
                         "Location": {
-                            "type": "string"
+                            "anyOf": [
+                                {
+                                    "type": [
+                                        "string"
+                                    ]
+                                },
+                                {
+                                    "$ref": "#/definitions/AWS::Serverless::Application.ApplicationLocation"
+                                }
+                            ]
                         },
                         "NotificationArns": {
                             "items": {
@@ -34227,7 +34236,7 @@ var SamSchema = `{
                             "type": "array"
                         },
                         "Parameters": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -34236,7 +34245,7 @@ var SamSchema = `{
                             "type": "object"
                         },
                         "Tags": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -34263,6 +34272,22 @@ var SamSchema = `{
             "required": [
                 "Type",
                 "Properties"
+            ],
+            "type": "object"
+        },
+        "AWS::Serverless::Application.ApplicationLocation": {
+            "additionalProperties": false,
+            "properties": {
+                "ApplicationId": {
+                    "type": "string"
+                },
+                "SemanticVersion": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "ApplicationId",
+                "SemanticVersion"
             ],
             "type": "object"
         },
@@ -34326,7 +34351,7 @@ var SamSchema = `{
                             "$ref": "#/definitions/AWS::Serverless::Function.FunctionEnvironment"
                         },
                         "Events": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "$ref": "#/definitions/AWS::Serverless::Function.EventSource"
@@ -34386,7 +34411,7 @@ var SamSchema = `{
                             "type": "string"
                         },
                         "Tags": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
@@ -34428,7 +34453,7 @@ var SamSchema = `{
             "additionalProperties": false,
             "properties": {
                 "Variables": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -34505,7 +34530,7 @@ var SamSchema = `{
                     "type": "boolean"
                 },
                 "Hooks": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -34593,7 +34618,7 @@ var SamSchema = `{
             "additionalProperties": false,
             "properties": {
                 "Variables": {
-                    "additionalProperties": false,
+                    "additionalProperties": true,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "type": "string"
@@ -34893,7 +34918,7 @@ var SamSchema = `{
                             "type": "string"
                         },
                         "Tags": {
-                            "additionalProperties": false,
+                            "additionalProperties": true,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "type": "string"
