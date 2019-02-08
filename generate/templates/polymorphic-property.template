@@ -26,7 +26,7 @@ type {{.Name}} struct {
 	{{$type}}Array *[]{{$.Basename}}_{{$type}}{{end}}
 }
 
-func (r {{.Name}}) value() interface{} {
+func (r {{.Name}}) Value() interface{} {
 
 	{{range $type := $.Property.PrimitiveTypes}}
 		if r.{{$type}} != nil {
@@ -63,7 +63,7 @@ func (r {{.Name}}) value() interface{} {
 }
 
 func (r {{.Name}}) MarshalJSON() ([]byte, error) {
-	return json.Marshal(r.value())
+	return json.Marshal(r.Value())
 }
 
 // Hook into the marshaller
