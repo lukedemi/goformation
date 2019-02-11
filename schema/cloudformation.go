@@ -2,7 +2,7 @@ package schema
 
 // CloudformationSchema defined a JSON Schema that can be used to validate CloudFormation/SAM templates
 var CloudformationSchema = `{
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$id": "http://json-schema.org/draft-04/schema#",
     "additionalProperties": false,
     "definitions": {
         "AWS::AmazonMQ::Broker": {
@@ -1916,7 +1916,7 @@ var CloudformationSchema = `{
                     "type": "string"
                 },
                 "Throttle": {
-                    "additionalProperties": true,
+                    "additionalProperties": false,
                     "patternProperties": {
                         "^[a-zA-Z0-9]+$": {
                             "$ref": "#/definitions/AWS::ApiGateway::UsagePlan.ThrottleSettings"
@@ -32527,7 +32527,7 @@ var CloudformationSchema = `{
                             "$ref": "#/definitions/AWS::SSM::Association.InstanceAssociationOutputLocation"
                         },
                         "Parameters": {
-                            "additionalProperties": true,
+                            "additionalProperties": false,
                             "patternProperties": {
                                 "^[a-zA-Z0-9]+$": {
                                     "$ref": "#/definitions/AWS::SSM::Association.ParameterValues"
