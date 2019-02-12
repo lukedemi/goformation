@@ -6,18 +6,12 @@ import (
 	"github.com/mitchellh/mapstructure"
 )
 
-// AWSServerlessFunction_Events is a helper struct that can hold either a String or String value
+// AWSServerlessFunction_Events is a helper struct that can hold either a String value
 type AWSServerlessFunction_Events struct {
-	String *string
-
 	StringArray *[]string
 }
 
 func (r AWSServerlessFunction_Events) value() interface{} {
-
-	if r.String != nil {
-		return r.String
-	}
 
 	if r.StringArray != nil {
 		return r.StringArray
@@ -41,9 +35,6 @@ func (r *AWSServerlessFunction_Events) UnmarshalJSON(b []byte) error {
 	}
 
 	switch val := typecheck.(type) {
-
-	case string:
-		r.String = &val
 
 	case []string:
 		r.StringArray = &val

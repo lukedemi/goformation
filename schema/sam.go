@@ -34685,19 +34685,10 @@ var SamSchema = `{
                     "type": "string"
                 },
                 "Events": {
-                    "anyOf": [
-                        {
-                            "type": [
-                                "string"
-                            ]
-                        },
-                        {
-                            "items": {
-                                "type": "string"
-                            },
-                            "type": "array"
-                        }
-                    ]
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
                 },
                 "Filter": {
                     "$ref": "#/definitions/AWS::Serverless::Function.S3NotificationFilter"

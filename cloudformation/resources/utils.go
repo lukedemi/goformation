@@ -1,6 +1,8 @@
 package resources
 
-import "encoding/json"
+import (
+	"encoding/json"
+)
 
 type byJSONLength []interface{}
 
@@ -29,5 +31,6 @@ func (s byJSONLength) Less(i, j int) bool {
 	if jsonj == nil {
 		return true
 	}
+
 	return len(jsoni) > len(jsonj)
 }

@@ -14,7 +14,7 @@ type AWSServerlessFunction_S3Event struct {
 	// Events AWS CloudFormation Property
 	// Required: true
 	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#s3
-	Events *AWSServerlessFunction_Events `json:"Events,omitempty"`
+	Events []string `json:"Events,omitempty"`
 
 	// Filter AWS CloudFormation Property
 	// Required: false
