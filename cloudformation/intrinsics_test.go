@@ -3,9 +3,9 @@ package cloudformation_test
 import (
 	"strings"
 
-	"github.com/awslabs/goformation"
-	"github.com/awslabs/goformation/cloudformation"
-	"github.com/awslabs/goformation/intrinsics"
+	"github.com/lukedemi/goformation"
+	"github.com/lukedemi/goformation/cloudformation"
+	"github.com/lukedemi/goformation/intrinsics"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

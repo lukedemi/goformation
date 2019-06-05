@@ -6,7 +6,7 @@ Avatar|Contributor|Contributions
 :-:|---|:-:
 <img class='float-left rounded-1' src='https://avatars3.githubusercontent.com/u/4678446?v=4' width='36' height='36' alt='@PaulMaddox'>|[@PaulMaddox](https://github.com/PaulMaddox)|266
 <img class='float-left rounded-1' src='https://avatars3.githubusercontent.com/u/31303332?v=4' width='36' height='36' alt='@goformation'>|[@goformation](https://github.com/goformation)|40
-<img class='float-left rounded-1' src='https://avatars2.githubusercontent.com/u/331436?v=4' width='36' height='36' alt='@grahamjenson'>|[@grahamjenson](https://github.com/grahamjenson)|13
+<img class='float-left rounded-1' src='https://avatars2.githubusercontent.com/u/331436?v=4' width='36' height='36' alt='@lukedemi'>|[@lukedemi](https://github.com/lukedemi)|13
 <img class='float-left rounded-1' src='https://avatars2.githubusercontent.com/u/339849?v=4' width='36' height='36' alt='@pesama'>|[@pesama](https://github.com/pesama)|12
 <img class='float-left rounded-1' src='https://avatars3.githubusercontent.com/u/432692?v=4' width='36' height='36' alt='@parsnips'>|[@parsnips](https://github.com/parsnips)|8
 <img class='float-left rounded-1' src='https://avatars0.githubusercontent.com/u/484245?v=4' width='36' height='36' alt='@clareliguori'>|[@clareliguori](https://github.com/clareliguori)|7

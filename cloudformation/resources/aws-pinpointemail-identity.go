@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/awslabs/goformation/cloudformation/policies"
+	"github.com/lukedemi/goformation/cloudformation/policies"
 )
 
 // AWSPinpointEmailIdentity AWS CloudFormation Resource (AWS::PinpointEmail::Identity)

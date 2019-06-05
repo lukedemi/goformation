@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/awslabs/goformation/cloudformation/policies"
+	"github.com/lukedemi/goformation/cloudformation/policies"
 )
 
 // AWSStepFunctionsActivity AWS CloudFormation Resource (AWS::StepFunctions::Activity)

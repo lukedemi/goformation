@@ -3,14 +3,14 @@ package goformation_test
 import (
 	"encoding/json"
 
-	"github.com/awslabs/goformation/cloudformation/policies"
-	"github.com/awslabs/goformation/cloudformation/resources"
+	"github.com/lukedemi/goformation/cloudformation/policies"
+	"github.com/lukedemi/goformation/cloudformation/resources"
 
 	"github.com/sanathkr/yaml"
 
-	"github.com/awslabs/goformation"
-	"github.com/awslabs/goformation/cloudformation"
-	"github.com/awslabs/goformation/intrinsics"
+	"github.com/lukedemi/goformation"
+	"github.com/lukedemi/goformation/cloudformation"
+	"github.com/lukedemi/goformation/intrinsics"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

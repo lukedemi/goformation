@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/awslabs/goformation/cloudformation/policies"
+	"github.com/lukedemi/goformation/cloudformation/policies"
 )
 
 // AWSCloudFrontStreamingDistribution AWS CloudFormation Resource (AWS::CloudFront::StreamingDistribution)

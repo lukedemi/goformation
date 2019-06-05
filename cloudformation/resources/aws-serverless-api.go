@@ -4,76 +4,76 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/awslabs/goformation/cloudformation/policies"
+	"github.com/lukedemi/goformation/cloudformation/policies"
 )
 
 // AWSServerlessApi AWS CloudFormation Resource (AWS::Serverless::Api)
-// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
+// See: https://github.com/lukedemi/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
 type AWSServerlessApi struct {
 
 	// Auth AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
+	// See: https://github.com/lukedemi/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
 	Auth *AWSServerlessApi_Auth `json:"Auth,omitempty"`
 
 	// BinaryMediaTypes AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
+	// See: https://github.com/lukedemi/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
 	BinaryMediaTypes []string `json:"BinaryMediaTypes,omitempty"`
 
 	// CacheClusterEnabled AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
+	// See: https://github.com/lukedemi/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
 	CacheClusterEnabled bool `json:"CacheClusterEnabled,omitempty"`
 
 	// CacheClusterSize AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
+	// See: https://github.com/lukedemi/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
 	CacheClusterSize string `json:"CacheClusterSize,omitempty"`
 
 	// Cors AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
+	// See: https://github.com/lukedemi/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
 	Cors string `json:"Cors,omitempty"`
 
 	// DefinitionBody AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
+	// See: https://github.com/lukedemi/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
 	DefinitionBody interface{} `json:"DefinitionBody,omitempty"`
 
 	// DefinitionUri AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
+	// See: https://github.com/lukedemi/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
 	DefinitionUri *AWSServerlessApi_DefinitionUri `json:"DefinitionUri,omitempty"`
 
 	// EndpointConfiguration AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
+	// See: https://github.com/lukedemi/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
 	EndpointConfiguration string `json:"EndpointConfiguration,omitempty"`
 
 	// MethodSettings AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
+	// See: https://github.com/lukedemi/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
 	MethodSettings interface{} `json:"MethodSettings,omitempty"`
 
 	// Name AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
+	// See: https://github.com/lukedemi/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
 	Name string `json:"Name,omitempty"`
 
 	// StageName AWS CloudFormation Property
 	// Required: true
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
+	// See: https://github.com/lukedemi/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
 	StageName string `json:"StageName,omitempty"`
 
 	// TracingEnabled AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
+	// See: https://github.com/lukedemi/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
 	TracingEnabled bool `json:"TracingEnabled,omitempty"`
 
 	// Variables AWS CloudFormation Property
 	// Required: false
-	// See: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
+	// See: https://github.com/lukedemi/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessapi
 	Variables map[string]string `json:"Variables,omitempty"`
 
 	// _deletionPolicy represents a CloudFormation DeletionPolicy
